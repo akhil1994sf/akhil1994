@@ -144,3 +144,44 @@ print(d)
 
 d={}
 print(type(d))
+
+name='AKhilesh'
+age=29
+salary=15000
+print("{}'s age is {} and his salary is:{}".format(name,age,salary))
+print("{0}'s age is {1} and his salary is:{2}".format(name,age,salary))
+print("{x}'s age is {y} and his salary is:{z}".format(z=salary,y=age,x=name))
+
+#write a programme to reverse a given string
+a='Akhilesh'
+#print(a[::-1])
+print("".join(reversed(a)))
+print(reversed(a))# it will reteurn object
+
+a=input('Entre some string')
+i=len(a)-1
+output=''
+while i>=0:
+	output=output+a[i]
+	i=i-1
+print(output)
+
+s=input('Entre some string')
+l=s.split()
+l1=[]
+i=len(l)-1
+while i>=0:
+	l1.append(l[i])
+	i=i-1
+print(l1)
+output=''.join(l1)
+print(output)
+
+s=input("entre some string")
+l=s.split()
+l1=[]
+for x in l:
+	l1.append(x[::-1])
+output=''.join(l1)
+print(output)
+
