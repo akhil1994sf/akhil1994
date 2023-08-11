@@ -5,6 +5,19 @@ t=10,20,30,40
 print(len(t))
 print(t)
 
+t=10,20,30,40
+print(len(t))
+print(t)
+
+t=10,20,30,40
+print(len(t))
+print(t)
+
+t=10,20,30,40
+print(len(t))
+print(t)
+
+
 t=10,20,30,40,10,10,10 
 print(t.index(10))
 print(t.count(10))
