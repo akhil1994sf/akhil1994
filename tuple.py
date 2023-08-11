@@ -99,6 +99,11 @@ print(s.pop())
 print(s.pop())
 print(s.pop())
 
+s={10,20,30,40}
+print(s.remove(40))
+print(s.discard(140))
+print(s)
+
 
 
 
